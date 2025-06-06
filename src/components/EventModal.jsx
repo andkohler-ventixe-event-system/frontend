@@ -62,7 +62,7 @@ export default function EventModal({ event, onAddToCart }) {
         </section>
       </div>
       <section className="event-packages">
-        <h4>Packages</h4>
+        <h4>Select a Package</h4>
         <div className="package-grid">
           {packages.map((pkg, index) => (
             <div key={index} className={`package-card ${selectedIndex === index ? 'selected' : ''}`}
